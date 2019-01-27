@@ -14,7 +14,7 @@ public class Degroot {
 		
 		//设置初始状态
 		for(int i=0;i<n;i++)
-			x[i][0]=r.nextInt(10);//生成0-10的随机数
+			x[i][0]=i;//生成0-10的随机数
 		
 		//设置邻接矩阵
 		double t=0;
@@ -36,7 +36,7 @@ public class Degroot {
 		
 		X.print(0, 14);//打印初始状态
 		
-		for(int i=0;i<0;i++)
+		for(int i=0;i<4;i++)
 		{
 			M=M.times(M);
 		}
